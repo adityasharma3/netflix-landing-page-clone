@@ -8,7 +8,7 @@ body {
     color: white;
 }
 
-h1 , h2 {
+h1 , h2 , p {
     color: white;
 }
 
@@ -99,7 +99,7 @@ hr {
     width: 37%;
     display: block;
     height: 307px;
-    margin-top: 35px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -117,24 +117,95 @@ hr {
 }
 
 .promo2 .story-card-2-phone {
-    display: block;
-    /* float: left; */
-    margin-right: 0%;
-    /* size: 500px ,352px ; */
-    /* padding-left: 10%; */
+    margin-left: 250px;    
     height: 500px;
-    width: 380px;
+    width: 40%;
 }
 
 .promo2 .story-card-2-phone img {
     /* /* width: 40%;
     height: 50%; */
-    padding-left: 0;
+    width: 500px;
+    padding-left: 2%;
     margin-left: 0;
     float: left;
 }
 
 .promo2 .story-card-2-text {
+    margin-top: 30px;
+    font-size: 24px;
     float: right;
     text-align: center;
+    width: 45%;
+}
+
+.promo3 .story-card-3-text {
+    float: left;
+    font-size: 24px;
+    margin-left: 10.5%;
+    width: 37%;
+    display: block;
+    height: 307px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.promo3 .story-card-3-media {
+    float: right;
+    width: 50%;
+    padding-left: 45px;
+    margin-right: 0;
+}
+
+.faq-section {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+.faq-section div {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #303030;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 24px;
+    padding: 2px;    
+    height : 60px;
+    width: 1200px;
+}
+
+.faq-section p {
+    padding-left: 12px;
+    width: 40%;
+}
+
+.faq-section .dropdown-content  {
+    width: 1200px;
+    background-color: #303030;
+    display: none;
+}
+
+.faq-section p :hover {
+    display: block;
+}
+
+footer p {
+    color: grey;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footer-link-container {
+    text-align: center;
+    display: inline;
+    padding: 30px;
+
+}
+
+.footer-link-container a {
+    text-decoration: none;
+    color: grey;
 }
